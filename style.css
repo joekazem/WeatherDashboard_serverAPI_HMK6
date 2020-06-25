@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+.header {
+    background-color: darkgrey;
+    color: black;
+    padding: 25px 25px 25px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.6);
+} 
+h1 {
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+/*button {
+ width: 310px;
+ height: 50px;
+ display: flex;
+ position: relative;
+ top: 70%;
+   
+    text-align: left;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+}*/
+.btn {
+  margin-bottom: 30%;  
+   width: 77px;
+   background-color: rgb(93, 133, 151);
+    
+}
+/*btn1 {
+    
+    display: flex;
+    padding: 0px 100px  3000px 0px;
+    
+    
+}*/
+input {
+    margin-bottom: 40px;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+.wx {
+float: right;
+
+position: relative;
+right: 33.3%;
+width: 350px;
+height: 350px;
+border: solid white;
+background-color: #fff;
+
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 300;
+    padding: 25px ;
+}
+.five {
+    display: flex;
+    margin: 0;
+}
+
+#box1 {
+    float: right;
+    
+   /* display: table; */
+    width: 200px;
+    height: 160px ;
+    margin: 25px;
+    background-color: rgb(23, 99, 197);
+    color: white
+    
+}
+#box2 {
+    float: right;
+    width: 200px;
+    height: 160px ;
+    margin: 25px;
+    background-color: rgb(23, 99, 197);
+    color: white
+    
+}
+#box3 {
+    float: right;
+    width: 200px;
+    height: 160px ;
+    margin: 25px;
+    background-color: rgb(23, 99, 197);
+    color: white
+    
+}
+#box4 {
+    float: right;
+    width: 200px;
+    height: 160px ;
+    margin: 25px;
+    background-color: rgb(23, 99, 197);
+    color: white
+    
+}
