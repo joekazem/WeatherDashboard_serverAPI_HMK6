@@ -1,59 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe's 'Weather DashBoard </title>
     <link rel="stylesheet" href="./style.css">
-    
+
 </head>
 <div class="header">
-<header>Weather Dashboard</header>
+    <header>Weather Dashboard</header>
 </div>
+
 <body>
+    <div class="containerBox">
+        <h3>Search for a City</h3>
+        <input width="20px" type="text" id="search-box" placeholder="Search for a city">
+        <br>
+        <button type="button" onclick="setQuery ()" class="btn">Submit</button>
+        <br>
+    </div>
+    <div class="btn1">
+        <button id="button1" type="button">Chicago</button>
+        <br><br>
+        <button id="button2" type="button">Denver</button>
+        <br><br>
+        <button id="button3"type="button">Tampa</button>
+        <br><br>
+        <button id="button4" type="button">San Francisco</button>
+        <br><br>
+        <button id="button5" type="button">Seattle</button>
+        <br><br>
+        <button id="button6" type="button">Houston</button>
+        <br><br>
+        <button id="button7" type="button">Atlanta</button>
+        <br><br>
+        <button id="button8" type="button">Boston</button>
 
-    <h3>Search for a City</h3>
-    <input  width="20px"type="text" id="search-box" placeholder="Search for a city">
-    
-    <button type="button" class="btn" >Submit</button>
-  
-    
 
-    
+
+
         <div class="wx">
-            <h4 id="temp" class="temp1"><span>Temperature:</span></h4>
+            <h4  class="temp1">Temperature:<span id="temp"></span> &#8457;</h4>
             <h4 id="humid" class="humid1">Humidity:</h4>
             <h4 id="wind" class="wind1">Wind Speed:</h4>
             <h4 id="uv" class="uv1">UV Index:</h4>
         </div>
-        <h1>Five Day Forecast</h1>
+        <h1 id="fiveDayTitle">Five Day Forecast</h1>
         <div class="five">
-            
+
             <div id="box1">
                 <h5>Temp</h5>
-                <h5>Humidty</h5>
+                <h5>Humidity</h5>
             </div>
             <div id="box2">
                 <h3></h3>
                 <h5>Temp</h5>
-                <h5>Humidty</h5>
+                <h5>Humidity</h5>
             </div>
             <div id="box3">
                 <h3></h3>
                 <h5>Temp</h5>
-                <h5>Humidty</h5>
+                <h5>Humidity</h5>
             </div>
             <div id="box4">
                 <h3></h3>
                 <h5>Temp</h5>
-                <h5>Humidty</h5>
+                <h5>Humidity</h5>
             </div>
-           
+            <div id="box5">
+                <h3></h3>
+                <h5>Temp</h5>
+                <h5>Humidity</h5>
+            </div>
+
         </div>
-             
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./script.js"></script>
-    
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+
 </body>
+
 </html>
