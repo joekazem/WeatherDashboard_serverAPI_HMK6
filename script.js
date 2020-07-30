@@ -16,11 +16,12 @@ function setQuery() {
         method: "GET",
         success: function (response) {
             $("#temp").text(response.main.temp)
-            $("#humid").text("Humidity " + response.main.humidity + "%")
-            $("#wind").text("wind Speed " + response.wind.speed + "Mph") //append to the html document
+            $("#humid").text("Humidity: " + response.main.humidity + "%")
+            $("#wind").text("Wind Speed: " + response.wind.speed + "Mph") //append to the html document
+             $("#pressure").text(response.main.pressure + "Hg")
             //var uv1 = $("<h3>")
-            //console.log(response.coord);
-            //console.log(response.weather[0].description);
+            console.log(response.coord);
+            console.log(response.weather[0].description);
             fiveDay(response.coord.lat, response.coord.lon);
         }
     })
